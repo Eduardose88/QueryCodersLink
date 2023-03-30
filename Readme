@@ -1,0 +1,5 @@
+--Notes: I would create functions using AfterUpdate and AfterInsert to update logs table
+--Users, Roles and Departments are handled like catalogs, is not recommended do changes as delete, 
+--create a subtable to make the relation with other tables.
+--I would add indexes to tables
+--Im not clear if i have to create SPs to so ill create some.
